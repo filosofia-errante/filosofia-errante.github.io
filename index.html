@@ -11,19 +11,16 @@
   <!-- Verificación de Google -->
   <meta name="google-site-verification" content="gpx-t-BBNt-Kq7hF9i5M_ThlrAqs0S4UDZnsXXwl_sI" />
 
-  <!-- Open Graph / Facebook / WhatsApp -->
+  <!-- Open Graph / Social Media -->
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://filosofia-errante.github.io/">
   <meta property="og:title" content="Filosofía Errante | Digital Library">
   <meta property="og:description" content="A digital library of classical texts and translations.">
-  <meta property="og:image" content="https://filosofia-errante.github.io/portada.jpg">
 
-  <!-- Twitter / X -->
-  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:card" content="summary">
   <meta property="twitter:url" content="https://filosofia-errante.github.io/">
   <meta property="twitter:title" content="Filosofía Errante | Digital Library">
   <meta property="twitter:description" content="A digital library of classical texts and translations.">
-  <meta property="twitter:image" content="https://filosofia-errante.github.io/portada.jpg">
 
   <style>
     :root {
@@ -56,7 +53,7 @@
 
     header {
       text-align: center;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       border-bottom: 1px solid var(--border);
       padding-bottom: 1.75rem;
     }
@@ -73,6 +70,22 @@
       color: var(--subtext);
       margin: 0;
       font-size: 1.05rem;
+    }
+
+    /* Estilo exclusivo para la cita */
+    .intro-quote {
+      text-align: center;
+      margin: 0 auto 3rem auto;
+      max-width: 560px;
+      padding: 0 1rem;
+    }
+
+    .intro-quote blockquote {
+      margin: 0;
+      font-style: italic;
+      font-size: 1.15rem;
+      line-height: 1.6;
+      color: var(--text);
     }
 
     .library-grid {
@@ -120,6 +133,13 @@
       <p class="tagline">A digital library of classical texts and translations</p>
     </header>
 
+    <!-- Cita sin imagen -->
+    <section class="intro-quote">
+      <blockquote>
+        "The treasures also of the wise of old, written and bequeathed in their books I unfold and pursue in common with my friends."
+      </blockquote>
+    </section>
+
     <main class="library-grid">
       <a class="book-card" href="/musonius-rufus/">
         <h2>Musonius Rufus</h2>
@@ -144,3 +164,4 @@
   </div>
 </body>
 </html>
+
